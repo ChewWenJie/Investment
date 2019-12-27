@@ -29,6 +29,7 @@ class MainActivity : AppCompatActivity() {
                              (month + 1).toString() + "/" +
                      year.toString())
                     val age = currentYear - year;
+                    //todo age and investment installment
                     editAge.setText(age.toString())
 
                     if(age >= 16 && age <= 20) {
