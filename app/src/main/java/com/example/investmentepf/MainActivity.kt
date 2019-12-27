@@ -72,7 +72,9 @@ class MainActivity : AppCompatActivity() {
                         val investment8 = 228000*0.3
                         editInvestment.setText(investment8.toString())
                     }
-
+                    else{
+                        editInvestment.setText("Invalid Age and Saving");
+                    }
 
                 },currentYear, currentMonth , currentDay)
                 dpd.show()
