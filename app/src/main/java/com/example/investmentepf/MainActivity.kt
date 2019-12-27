@@ -75,6 +75,11 @@ class MainActivity : AppCompatActivity() {
                     else{
                         editInvestment.setText("Invalid Age and Saving");
                     }
+                    //val basicSaving = getSaving(age)
+                    //txtAge.text = age.toString()
+                    //txtBasicSaving.text = "Rm" + basicSaving.toString()
+                    //txtAllowableINvextment.text = "RM" + (basicSAving * 0.3).toString()
+
 
                 },currentYear, currentMonth , currentDay)
                 dpd.show()
