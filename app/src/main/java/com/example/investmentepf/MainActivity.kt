@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        txtDOB.setOnClickListener(){
+        btnCalendar.setOnClickListener(){
             val c:Calendar = Calendar.getInstance();
             val currentDay = c.get(Calendar.DAY_OF_MONTH);
             val currentMonth = c.get(Calendar.MONTH);
@@ -73,6 +73,7 @@ class MainActivity : AppCompatActivity() {
                         editInvestment.setText(investment8.toString())
                     }
                     else{
+                        editSave.setText("Invalid Age")
                         editInvestment.setText("Invalid Age and Saving");
                     }
                     //val basicSaving = getSaving(age)
